@@ -1,0 +1,181 @@
+html, body {
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+
+.headcontainer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headertwo {
+    display: flex;
+    padding: 75px 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.lefthead {
+    height: 150px;
+    width: 300px;
+}
+
+#image1, .righthead {
+    border: none;
+    border-radius: 0;
+   height: 150px;
+    width: 300px;
+}
+
+.sublogo {
+    font-weight: bold;
+    font-size: 32px;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.headerlink {
+   font-size: 18px; 
+   color: lightgray;
+   display: flex;
+   gap: 10px;
+}
+
+.subtext {
+    color: lightgray;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+}
+
+#signup1 {
+    border-radius: 5px;
+    border: #3882f6;
+    padding: 5px 20px;
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+img {
+    border: 1px solid blue;
+    border-radius: 4px;
+    width: 120px;
+}
+
+/* Main Body */
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 35px;
+}
+ .photos {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+    gap: 15px;
+    width: 25%;
+    font-size: small;
+ }
+
+ /* Quote Section */
+
+ .quotes {
+    background-color: #e5e7eb;
+    padding: 150px;
+ }
+
+ .quote {
+    font-style: italic;
+    font-size: 26px;
+    font-weight: lighter;
+    color: #1f2937;
+ }
+
+ .thor {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+ }
+
+ /* Blue Bar */
+
+ .bluebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #3882f6;
+    color: white;
+    width: 600px;
+    height: 100px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding: 10px 100px;
+ }
+
+ .signtext {
+    color: #e5e7eb;
+    font-size: smaller;
+ }
+
+ .signup {
+    font-weight: bold;
+ }
+
+ #signup2 {
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: 2px solid white;
+ }
+
+ /* Footer */
+
+.footer {
+    color: white;
+    background-color: #1f2937;
+    text-align: center;
+    padding: 40px;
+}
